@@ -1,14 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Pablo Serrano</h1>
-        <p>
-          This is my portfolio
-        </p>
+        <Header />
 
       </header>
     </div>
