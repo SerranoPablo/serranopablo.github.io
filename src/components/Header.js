@@ -1,12 +1,12 @@
 import React from 'react';
-import './Header.css';
-import avatar from './images/avatar.jpeg';
+import '../styles/Header.css';
+import avatar from '../images/avatar.jpeg';
 
 function Header() {
  return (
   <div class="header">
    <div className="header__menu">
-    <a href="">Bio</a>
+    <a href="#bio">Bio</a>
     <a href="">Projects</a>
     <a href="">Contact</a>
    </div>

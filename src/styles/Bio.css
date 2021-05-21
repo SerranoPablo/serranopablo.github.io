@@ -1,0 +1,52 @@
+.bio{
+ width: 100%;
+ min-height: 200px; 
+ background-color: #616E7C;
+ padding: 0px 0 3000px 0;
+ 
+ 
+}
+.bio__row{
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+}
+.bio__info{
+ width: 100%;
+
+}
+
+.bio__field{
+ max-height: 40px;
+ padding-left: 10%;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+
+}
+
+.bio__field h4{
+ padding: 0 10px 0 10px;
+ color:#222222 ;
+;
+ font-size: 1.2rem;
+}
+
+.bio__field p{
+ color:white;
+ font-size: 1.1rem;
+}
+.bio__story{
+ margin: -50px 0 0 0;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+.bio__story p {
+ margin: 0 auto;
+ width: 80%;
+ text-align: justify;
+ font-size: 1rem;
+}
