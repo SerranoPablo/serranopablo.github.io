@@ -6,22 +6,80 @@
 
 }
 .header__menu{
- width: 30%;
- position:fixed;
- right:0px;
- margin: 10px 10px 0 0;
+ width: 40%;
+ position:relative;
+ left:60%;
+ margin: 20px 20px 0 0;
  display: flex;
  flex-direction: row;
  justify-content: space-around;
+ justify-items: flex-end;
  
 }
 .header__menu a{
- color:crimson;
+ color:white;
  text-decoration: none;
+}
+a:hover{
+ color: orange;
 }
 .header__avatar{
  border-radius: 50%;
  width:200px;
+ opacity: 0;
+ animation-name: bounceIn;
+ animation-duration: 450ms;
+ animation-timing-function: linear;
+ animation-fill-mode: forwards;
+ animation-delay: 3s;
 }
 
+.wrapper {
+ padding: 70px 0;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.typewriter {
+ font-size: 2rem;
+  width: 21ch;
+  animation: typing 3s steps(21), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+
+}
+
+@keyframes typing {
+
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+
+}
+
+@keyframes bounceIn{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.8);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
+}
 

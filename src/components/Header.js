@@ -7,17 +7,17 @@ function Header() {
   <div class="header">
    <div className="header__menu">
     <a href="#bio">Bio</a>
-    <a href="">Projects</a>
-    <a href="">Contact</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
    </div>
-   <p>Hello, I am</p>
-   <h1>Pablo Serrano</h1>
+   <div class="wrapper">
+    <div class="typewriter">
+     Grüezi, I am
+     <span style={{ fontSize: "2.5rem", color: "orange" }}> Pablo Serrano</span>
+    </div>
+
+   </div>
    <img className="header__avatar" src={avatar} alt="Avatar" />
-
-
-   <p>
-    This is my portfolio
-   </p>
 
   </div>
  )

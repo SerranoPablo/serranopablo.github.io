@@ -4,7 +4,7 @@ import '../styles/Bio.css';
 function Bio() {
  return (
   <div className="bio">
-   <h3 id='bio'>Bio</h3>
+   <h2 id='bio'>Bio</h2>
 
    <div className="bio__row">
     <div className="bio__info">
@@ -18,7 +18,7 @@ function Bio() {
      </div>
      <div className="bio__field">
       <h4>Address:</h4>
-      <p>Riehen, BS</p>
+      <p>Riehen BS</p>
      </div>
      <div className="bio__field">
       <h4>Origin:</h4>
@@ -32,7 +32,9 @@ function Bio() {
 
     <div className="bio__story">
      <h3>My story</h3>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tempore quia error necessitatibus quaerat, ipsam minima repudiandae temporibus quo maxime repellat fuga odit eius aspernatur adipisci odio ea consectetur unde.</p>
+     <p>Currently looking for an entry level position in IT while I pursue an IT Engineering Bachelor online. <br /><br />
+     Used to work in scientific research but I realised my passion was in programming. Since then I have been learning as much as possible and I adore the field.<br /><br />
+      I have been focusing on React.js but I am open to learning new skills.</p>
     </div>
    </div>
 

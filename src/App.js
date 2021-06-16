@@ -2,15 +2,19 @@ import React from 'react';
 import './styles/App.css';
 import Header from './components/Header.js';
 import Bio from './components/Bio.js';
-import Project from './components/Project.js';
+import Projects from './components/Projects.js';
+import Contact from './components/Contact';
+
+
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Bio />
-      <Project title="ToDo App" position="left" />
-      <Project title="Weather App" position="right" />
+      <Projects />
+      <Contact />
+
 
     </div>
   );

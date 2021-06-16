@@ -1,0 +1,48 @@
+.contact{
+ background-color: #616E7C;
+ width: 100%;
+ height: auto;
+ padding-bottom: 200px;
+
+}
+
+.contact__row{
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ margin: 50px 0;
+}
+.contact__column{
+ width:50%;
+ display: flex;
+ flex-direction: column;
+}
+
+h2{
+ color: white;
+ text-decoration: underline orange;
+
+}
+
+.contact__field{
+ max-height: 40px;
+ padding-left: 10%;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+
+}
+
+.contact__field h4{
+ padding: 0 10px 0 10px;
+ color:#222222 ;
+ font-size: 1.2rem;
+}
+
+.contact__field p{
+ color:white;
+ font-size: 1.1rem;
+}
+.contact button{
+ margin-left: 60%;
+}
