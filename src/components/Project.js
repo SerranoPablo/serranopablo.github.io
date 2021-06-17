@@ -9,10 +9,10 @@ function Project({ title, text, position, image, linkWeb, linkGH }) {
     <p>{title}</p>
     <p>{text}</p>
     <Button type="primary" title="Play" link={linkWeb} />
-    <Button type="secondary" title="View code" link={linkGH} />
+    <Button type="secondary" title="Code" link={linkGH} />
 
    </div>
-   <div className="project__box">
+   <div className="project__box picture">
     <img src={image} alt="" />
    </div>
 

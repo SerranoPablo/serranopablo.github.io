@@ -56,3 +56,21 @@ h2{
  font-size: 1rem;
  line-height:1.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+ .bio__row{
+  flex-direction: column;
+ }
+ .bio__story{
+  margin: 0;
+ }
+ .bio__field h4{
+ 
+ font-size: 1.1rem;
+}
+
+.bio__field p{
+ color:white;
+ font-size: 1.0rem;
+}
+}

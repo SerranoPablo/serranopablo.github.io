@@ -10,12 +10,14 @@
  display: inline-block;
  font-size: 16px;
  margin: 5px;
+ text-transform: uppercase;
+ border-radius: 0.3rem;
 
 }
 
 .primary{
- background-color: orange; 
- border-radius: 0.3rem;
+ background: linear-gradient(45deg, #FFA500, #ff6f00fc);
+ color: white;
 }
 .primary:hover{
  background-color: rgb(255, 119, 0);
@@ -23,13 +25,19 @@
 
 .secondary{
  color: orange;
- border-radius: 0.3rem;
- background-color: white;
+ background-color: transparent;
+ border-style: solid;
+ border-width: 2px;
+ border-image: linear-gradient(45deg, #FFA500, #ff6f00fc) 1;
+ 
 
- border: 2px solid orange;
 }
+
+
+
 
 .secondary:hover{
  color: white;
  background-color: rgb(255, 119, 0);
+ border: 2px solid rgb(255, 119, 0);
 }
