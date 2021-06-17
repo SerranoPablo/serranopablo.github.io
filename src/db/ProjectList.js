@@ -8,7 +8,7 @@ const ProjectList = [
   title: "ToDo App",
   position: "left",
   image: TodoImage,
-  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown ",
+  text: "Simple To Do App where you can add tasks and then tick them off or delete them.",
   linkWeb: "https://serranopablo.github.io/todo/",
   linkGH: "https://github.com/SerranoPablo/todo"
  },
@@ -17,14 +17,14 @@ const ProjectList = [
   title: "Weather App",
   position: "right",
   image: WeatherImage,
-  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+  text: "Will be uploaded the 20th of June 2021. Sorry for the inconveniences."
  },
  {
   id: 2,
   title: "Hangman App",
   position: "left",
   image: QuestionImage,
-  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+  text: "Will be uploaded the 20th of June 2021. Sorry for the inconveniences."
  }
 ];
 

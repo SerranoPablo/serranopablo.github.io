@@ -6,7 +6,7 @@ function Project({ title, text, position, image, linkWeb, linkGH }) {
  return (
   <div className={`project ${(position == "left") ? "default" : "white"} `}>
    <div className={`project__box ${(position == "left") ? "left" : "right"} `}>
-    <p>{title}</p>
+    <h4>{title}</h4>
     <p>{text}</p>
     <Button type="primary" title="Play" link={linkWeb} />
     <Button type="secondary" title="Code" link={linkGH} />
