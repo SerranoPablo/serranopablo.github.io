@@ -8,7 +8,14 @@ function Projects() {
   <div className="projects" id="projects">
    <h2>Projects</h2>
    {ProjectList.map(p =>
-    <Project id={p.id} title={p.title} position={p.position} image={p.image} text={p.text} />
+    <Project
+     id={p.id}
+     title={p.title}
+     position={p.position}
+     image={p.image}
+     text={p.text}
+     linkWeb={p.linkWeb}
+     linkGH={p.linkGH} />
    )}
   </div>
  )

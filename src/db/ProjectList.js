@@ -8,7 +8,9 @@ const ProjectList = [
   title: "ToDo App",
   position: "left",
   image: TodoImage,
-  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown ",
+  linkWeb: "https://serranopablo.github.io/todo/",
+  linkGH: "https://github.com/SerranoPablo/todo"
  },
  {
   id: 1,
