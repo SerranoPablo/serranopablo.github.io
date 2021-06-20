@@ -17,14 +17,16 @@ const ProjectList = [
   title: "Weather App",
   position: "right",
   image: WeatherImage,
-  text: "Will be uploaded the 20th of June 2021. Sorry for the inconveniences."
+  text: "Will be uploaded the 25th of June 2021. Sorry for the inconveniences."
  },
  {
   id: 2,
   title: "Hangman App",
   position: "left",
   image: QuestionImage,
-  text: "Will be uploaded the 20th of June 2021. Sorry for the inconveniences."
+  text: "Answer correctly the question before your man is hung.",
+  linkWeb: "https://serranopablo.github.io/hangman/",
+  linkGH: "https://github.com/SerranoPablo/hangman"
  }
 ];
 
