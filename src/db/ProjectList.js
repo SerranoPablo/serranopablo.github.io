@@ -17,7 +17,9 @@ const ProjectList = [
   title: "Weather App",
   position: "right",
   image: WeatherImage,
-  text: "Will be uploaded the 25th of June 2021. Sorry for the inconveniences."
+  text: "Shows the current weather of different cities using the API OpenWeatherMap.org ",
+  linkWeb: "https://serranopablo.github.io/weather-app/",
+  linkGH: "https://github.com/SerranoPablo/weather-app"
  },
  {
   id: 2,
